@@ -2,7 +2,7 @@
   xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
   <modelVersion>4.0.0</modelVersion>
   <groupId>org.siit.automation-local-project</groupId>
-  <artifactId>automation-local-project</artifactId>
+  <artifactId>automation-project</artifactId>
   <version>0.0.1</version>
   <name>Archetype - automation-local-project</name>
   <url>http://maven.apache.org</url>

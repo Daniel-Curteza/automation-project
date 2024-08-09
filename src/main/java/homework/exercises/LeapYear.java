@@ -16,9 +16,9 @@ public class LeapYear {
             System.out.println("Please enter a valid year between 1900 and 2016.");
         } else {
             if (checkYear(year)) {
-                System.out.println("February of " + year + " has 29 days");
+                System.out.println("The February month of the" + year + " had 29 days");
             } else {
-                System.out.println("February of " + year + " has 28 days");
+                System.out.println("The February month of the" + year + " had 28 days");
             }
         }
 

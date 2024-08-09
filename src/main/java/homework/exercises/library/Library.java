@@ -10,6 +10,7 @@ public class Library {
         Author newAuthor = new Author();
         newAuthor.name="Dan Brown";
         newAuthor.email="dan_brown@email.com";
+
         System.out.println("Book " + newBook.name + "(" + newBook.price + "RON),by " + newAuthor.name + ", published in " + newBook.year);
 
     }

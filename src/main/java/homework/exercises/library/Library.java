@@ -1,17 +1,11 @@
 package homework.exercises.library;
 
+import courses.oop2.Utils;
+
 public class Library {
     public static void main(String[] args) {
-        Book newBook = new Book();
-        newBook.name="The da Vinci Code";
-        newBook.year=2003;
-        newBook.price=45;
-        newBook.author="Dan Brown";
-        Author newAuthor = new Author();
-        newAuthor.name="Dan Brown";
-        newAuthor.email="dan_brown@email.com";
-
-        System.out.println("Book " + newBook.name + "(" + newBook.price + "RON),by " + newAuthor.name + ", published in " + newBook.year);
-
+        Book b1 = new Book("The da Vinci Code",2003,"Dan Brown",45);
+        Author a1 = new Author("Dan Brown","dan_brown@email.com");
+        Utils.printLibrary(a1,b1);
     }
 }
